@@ -1,0 +1,7 @@
+[phases.setup]
+aptPkgs = ["php8.2-pgsql", "php8.2-cli", "php8.2-common", "php8.2-pgsql"]
+
+[phases.build]
+commands = [
+  "composer install --no-dev --optimize-autoloader"
+]
