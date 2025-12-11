@@ -40,7 +40,7 @@
                                 @for($i = 1; $i <= 10; $i++)
                                     <label class="cursor-pointer group">
                                         <input type="radio" name="score" value="{{ $i }}" class="hidden peer">
-                                        <i class="fas fa-star text-2xl lg:text-3xl transition-all duration-300
+                                        <i class="fas fa-star text-1 lg:text-2xl transition-all duration-300
                                             text-gray-600 hover:text-yellow-400 hover:scale-110
                                             peer-checked:text-yellow-400 peer-checked:scale-110
                                             peer-checked:drop-shadow-lg">

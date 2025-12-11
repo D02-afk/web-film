@@ -12,6 +12,8 @@ class Genre extends Model
 
     protected $fillable = ['name', 'slug'];
 
+    public $timestamps = false;
+
     public function movies(): BelongsToMany
     {
         return $this->belongsToMany(Movie::class, 'movie_genre');
